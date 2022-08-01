@@ -41,7 +41,8 @@
 }
 .lista li a:hover {
     background-image: linear-gradient(to right top, #ffffff, #fbf7ff, #f9eeff, #fae4ff, #fddaff);
-}
+    }
+
 
 .header__logo{
     display: flex;
@@ -81,6 +82,10 @@ main{
     border-radius: 20%;
     width: 350px;
     height: 350px;
+    transition: 0.5;
+}
+.borde__img:hover{
+    transform: scale(1.2);
 }
 
 .aside{
