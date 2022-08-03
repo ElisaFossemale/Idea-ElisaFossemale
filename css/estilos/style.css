@@ -40,10 +40,8 @@
     
 }
 .lista li a:hover {
-    background-image: linear-gradient(to right top, #ffffff, #fbf7ff, #f9eeff, #fae4ff, #fddaff);
-    }
-
-
+    background-image: linear-gradient(to bottom, #ffe0f1, #fae1f2, #f6e3f2, #f2e4f1, #eee5f0);
+}
 .header__logo{
     display: flex;
     width: 200px;
@@ -178,15 +176,15 @@ main{
     display: flex;
     padding: 10px;
 }
-.botonContacto{
+.animate__animated{
     width:40%;
     border: none;
     padding: 12px;
     margin-left: 100px;
     margin-top: 20px;
     background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
-    
-    }
+}
+
 
     /*STYLE DE REGISTRO*/
 
@@ -212,6 +210,11 @@ main{
     font-family: 'Courier New', Courier, monospace;
     font-size: 18px;
     padding: 10px;
+    transition: all 2s;
+}
+.input__registro:focus{
+    width: 80%;
+    font-size: 24px;
 }
 .checkyp__registro{
     display: flex;
@@ -230,6 +233,7 @@ main{
     margin-top: 20px;
     background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
 }
+
 
 /*STYLE NOSOTROS*/
 
