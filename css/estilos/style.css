@@ -254,7 +254,7 @@ main{
 
 .influencer__h1 {
     text-align: center;
-    font-family:'Open Sans', sans-serif;
+    font-family:'Open Sans';
     margin: 10px;
 }
 .influencer__p{text-align: center;}
