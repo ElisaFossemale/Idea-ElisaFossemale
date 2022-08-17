@@ -1,0 +1,47 @@
+  /*STYLE DE REGISTRO*/
+
+  .form__registro h1{
+    font-size: 22px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.form__registro{ 
+    width: 30rem;
+    padding: 30px;
+    margin: auto;
+    margin-top: 20px;}
+
+.input__registro{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    margin-left: 90px;
+    border: 1px solid  #f5eae6;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    padding: 10px;
+    transition: all 2s;
+}
+.input__registro:focus{
+    width: 80%;
+    font-size: 24px;
+}
+.checkyp__registro{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-left: -40px;
+    
+}
+.btn{
+    width:40%;
+    border: none;
+    padding: 12px;
+    margin-left: 100px;
+    margin-top: 20px;
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
