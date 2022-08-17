@@ -157,14 +157,14 @@ main {
   display: flex;
   padding: 10px; }
 
-.animate__animated {
-  width: 40%;
-  border: none;
-  padding: 12px;
-  margin-left: 100px;
-  margin-top: 20px;
-  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%); }
-
+/*.animate__animated{
+    width:40%;
+    border: none;
+    padding: 12px;
+    margin-left: 100px;
+    margin-top: 20px;
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}*/
 /*STYLE DE REGISTRO*/
 .form__registro h1 {
   font-size: 22px;
