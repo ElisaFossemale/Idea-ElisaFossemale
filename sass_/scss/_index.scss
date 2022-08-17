@@ -1,0 +1,40 @@
+/*main del index*/
+main{
+    background-color: #FCE2DB;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.section__index{
+    display: grid ;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: auto;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    column-gap: 800px;
+    row-gap: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.col h2{
+    font-size: 1.5rem;
+    font-family:'Roboto';
+    font-style: italic;
+    margin-left: 100px;
+}
+
+.borde__img{
+    border-radius: 20%;
+    margin-bottom: 50px;
+    width: 350px;
+    height: 350px;
+    transition: 0.5;
+
+&hover{
+    transform: scale(1.2);
+}
+   }
