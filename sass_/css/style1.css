@@ -21,22 +21,22 @@ ul li {
   display: flex;
   text-decoration: none;
   margin: 50px; }
-
-.navbar li a {
-  transition: 0.2s;
-  text-decoration: none;
-  font-size: 16px;
-  line-height: 20px;
-  font-weight: 500;
-  font-family: 'Roboto';
-  color: black; }
-  .navbar li a:hover {
-    color: #ffae98; }
-  .navbar li a .navbar-toggler {
-    border: 1px; }
-  .navbar li a .aside {
-    margin: 5%;
-    border: 5%; }
+  .navbar
+ul li .navbar li a {
+    transition: 0.2s;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+    font-family: 'Roboto';
+    color: black; }
+    .navbar
+ul li .navbar li a:hover {
+      color: #ffae98; }
+    .navbar
+ul li .navbar li a .aside {
+      margin: 5%;
+      border: 5%; }
 
 /*main del index*/
 main {
@@ -141,14 +141,6 @@ main {
   display: flex;
   padding: 10px; }
 
-/*.animate__animated{
-    width:40%;
-    border: none;
-    padding: 12px;
-    margin-left: 100px;
-    margin-top: 20px;
-    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
-}*/
 /*STYLE DE REGISTRO*/
 .form__registro h1 {
   font-size: 22px;
