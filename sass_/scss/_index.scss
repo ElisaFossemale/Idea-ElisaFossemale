@@ -6,6 +6,9 @@ main{
     align-items: center;
     
 }
+.aspecto{
+    object-fit: cover;
+}
 
 .section__index{
     display: grid ;
@@ -28,13 +31,13 @@ main{
 }
 
 .borde__img{
-    border-radius: 20%;
+    border-radius: 40%;
     margin-bottom: 50px;
     width: 350px;
     height: 350px;
     transition: 0.5;
 
-&hover{
-    transform: scale(1.2);
-}
-   }
+&:hover{
+    transform: scale(1.1);
+
+}     }

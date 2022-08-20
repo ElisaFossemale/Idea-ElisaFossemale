@@ -14,7 +14,7 @@ header {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  background-image: red; }
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%); }
 
 .navbar
 ul li {
@@ -23,39 +23,20 @@ ul li {
   margin: 50px; }
 
 .navbar li a {
-  transition: all 0.2s ease 0s;
+  transition: 0.2s;
   text-decoration: none;
   font-size: 16px;
   line-height: 20px;
   font-weight: 500;
   font-family: 'Roboto';
   color: black; }
-
-a:hover {
-  background-image: black; }
-
-.header__logo {
-  display: flex;
-  width: 200px;
-  margin-left: 43%; }
-
-.navbar-toggler {
-  border: 1px; }
-
-.aside {
-  margin: 5%;
-  border: 5%; }
-
-.footer {
-  display: flex;
-  justify-content: space-evenly;
-  background-color: #e2b6af; }
-
-.mapa {
-  width: 250px;
-  height: 250px;
-  float: right;
-  margin: 20px; }
+  .navbar li a:hover {
+    color: #ffae98; }
+  .navbar li a .navbar-toggler {
+    border: 1px; }
+  .navbar li a .aside {
+    margin: 5%;
+    border: 5%; }
 
 /*main del index*/
 main {
@@ -63,6 +44,9 @@ main {
   display: grid;
   justify-content: center;
   align-items: center; }
+
+.aspecto {
+  object-fit: cover; }
 
 .section__index {
   display: grid;
@@ -83,13 +67,13 @@ main {
   margin-left: 100px; }
 
 .borde__img {
-  border-radius: 20%;
+  border-radius: 40%;
   margin-bottom: 50px;
   width: 350px;
   height: 350px;
   transition: 0.5; }
-  .borde__imghover {
-    transform: scale(1.2); }
+  .borde__img:hover {
+    transform: scale(1.1); }
 
 /* STYLE DE GALERIA */
 .main__galeria {
@@ -114,7 +98,7 @@ main {
   margin-bottom: 30px; }
 
 .galeria__anillos h2 {
-  margin-left: 98px;
+  margin-left: 60px;
   font-size: 16px;
   font-family: 'Roboto';
   font-weight: 500;
@@ -124,7 +108,7 @@ main {
   background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
   border-radius: 8px;
   border-color: #ebedee;
-  color: #7b787a;
+  color: grey;
   display: inline-block;
   font-family: 'Roboto';
   font-weight: 700;
@@ -230,6 +214,17 @@ main {
 
 .influencer__p {
   text-align: center; }
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%); }
+
+.mapa {
+  width: 250px;
+  height: 250px;
+  float: right;
+  margin: 20px 20px 20px 20px; }
 
 /*media index*/
 @media (max-width: 480px) {
