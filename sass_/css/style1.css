@@ -8,7 +8,7 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto;
-  grid-area: "header" "main" "aside" "footer"; }
+  grid-area: "header" "main" "aside" "footer"; }
 
 header {
   display: flex;
