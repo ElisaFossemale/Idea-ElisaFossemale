@@ -1,0 +1,11 @@
+.footer{ display: flex;
+    justify-content: space-evenly;
+    background-image:map-get($estilos, color);
+}
+
+.mapa{
+    width:map-get($estilos, mapaAncho);
+    height:map-get($estilos, mapaAlto);
+    float: right;
+    margin:map-get($estilos, mapaMargen );
+}

@@ -1,0 +1,22 @@
+//colores//
+
+$color-header:linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+$ancla:black;
+$color-hover:   #ffae98;
+$color-carrito:grey;
+
+
+//medidas mapa//
+$ancho-mapa:250px;
+$alto-mapa:250px;
+$margin-mapa:20px 20px 20px 20px;
+
+
+//MAPS//
+
+$estilos:(
+    color: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%),
+    mapaAncho: 250px,
+    mapaAlto:250px,
+    mapaMargen:20px 20px 20px 20px,
+)
