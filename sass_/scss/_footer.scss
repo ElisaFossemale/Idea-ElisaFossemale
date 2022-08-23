@@ -2,7 +2,13 @@
     justify-content: space-evenly;
     background-image:map-get($estilos, color);
 }
-
+.whats{
+    color: green;
+    
+}
+.insta{
+    color: orange;
+}
 .mapa{
     width:map-get($estilos, mapaAncho);
     height:map-get($estilos, mapaAlto);

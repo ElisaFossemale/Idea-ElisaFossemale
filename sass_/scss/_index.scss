@@ -1,9 +1,6 @@
 /*main del index*/
 main{
-    background-color: #FCE2DB;
-    display: grid;
-    justify-content: center;
-    align-items: center;
+   @include main;
     
 }
 .aspecto{

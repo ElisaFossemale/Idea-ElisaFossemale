@@ -1,0 +1,17 @@
+@mixin main{
+    background-color: #FCE2DB;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin alineacion ($columns, $row)
+ {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    grid-template-columns:( 1fr 1fr 1fr);
+    grid-template-rows:(auto);
+    
+    
+}

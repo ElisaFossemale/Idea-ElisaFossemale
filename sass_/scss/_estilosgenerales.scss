@@ -21,13 +21,13 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
-    background-image: $color-header;
+    background-image:map-get($estilos, color);
  }
 .navbar 
  ul li{
     display: flex;
     text-decoration:none;
-    margin: 50px;
+    margin: 50px;}
 
 
 .navbar li a {
@@ -41,11 +41,11 @@
 
 
 &:hover {
-    color:$color-hover;
+    color:$color-ancla;
 }
 
 
 .aside{
     margin: 5%;
     border: 10%;
-}}}
+}}
