@@ -2,12 +2,21 @@
     justify-content: space-evenly;
     background-image:map-get($estilos, color);
 }
+.footer__div {margin-top: 50px;}
+.footer__div a {
+    display: inline-block;
+    text-decoration: none;
+    line-height: 45px;
+    width: 45px;
+    height: 45px;
+}
+
 .whats{
     color: green;
     
 }
 .insta{
-    color: orange;
+    color:lightcoral;
 }
 .mapa{
     width:map-get($estilos, mapaAncho);
