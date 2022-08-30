@@ -1,8 +1,11 @@
 /*main del index*/
 main{
-   @include main;
-    
+    background-color: #FCE2DB;
+    display: grid;
+    justify-content: center;
+    align-items: center;
 }
+
 .aspecto{
     object-fit: cover;
 }
@@ -13,7 +16,7 @@ main{
     margin-left: 120px;
 }
 
-.borde__img{
+.index__img{
     border-radius: 80%;
     margin-bottom: 50px;
     width: 350px;
