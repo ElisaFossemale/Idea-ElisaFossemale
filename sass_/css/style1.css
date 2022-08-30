@@ -316,7 +316,7 @@ main {
     width: 80px;
     height: 80px; } }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) and (max-width: 1090px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) and (min-width: 768px) and (max-width: 1600px) {
   header {
     display: flex;
     flex-direction: column; }
@@ -349,14 +349,13 @@ main {
   .section__galeria {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: auto;
-    margin-left: 2px; }
+    grid-template-rows: repeat(6); }
   .navbar ul li {
     margin: 0; }
   .carrito {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: auto; }
+    grid-template-rows: repeat(6); }
   .galeria__anillos h2 {
     margin-left: 2px; }
   .anillos__925 {
@@ -402,6 +401,30 @@ main {
     margin-left: 2px; }
   .borde__img {
     margin-left: 10px; } }
+
+@media screen and (min-width: 768px) and (max-width: 1023px) and (min-width: 768px) and (max-width: 1600px) {
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .navbar ul li a {
+    margin: 0px; }
+  .section__galeria {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    column-gap: 70px;
+    justify-content: space-around; }
+  .col {
+    margin-left: -50px; }
+  .carrito {
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px; }
+  .section__galeria .col h2 {
+    margin-left: 70px; }
+  .borde__img {
+    margin-left: -10px; } }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   /*MEDIA Q CONTACTO*/ }
