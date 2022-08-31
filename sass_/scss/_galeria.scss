@@ -8,7 +8,7 @@
 .section__galeria{
     @extend .main__galeria;
     @include alineacion (3, auto,);
-    column-gap: 20px;
+    column-gap: 40px;
     margin-left: 65px;  
 }
 .col {

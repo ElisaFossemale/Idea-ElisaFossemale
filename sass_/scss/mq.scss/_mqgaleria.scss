@@ -1,0 +1,107 @@
+
+/*MEDIA Q GALERIA*/
+
+@media screen and (min-width:480px) and (max-width:599px){
+    
+    .section__galeria {
+     @include alineacionMq (1,auto);
+     }
+            
+    .carrito{
+    display: flex;
+     flex-direction: column;
+     margin-left: 90px;}
+           
+    .section__galeria .col h2{ margin-left: 90px;}
+              
+    .borde__img {margin-right: 100px;
+                 border-radius: 20px;                
+    }
+            
+    .anillos__925{font-size: 24px;}
+    }
+    
+    @media screen and (min-width:600px) and (max-width:767px){
+        header{
+            display: flex;
+            flex-direction: column;
+    }
+    .carousel{display: none}
+
+    .navbar ul li {margin: 0px;}
+    
+    .section__galeria {
+        @include alineacionMq (1,auto);
+        }
+               
+       .carrito{
+       display: flex;
+        flex-direction: column;
+        margin-left: 90px;}
+              
+       .section__galeria .col h2{ margin-left: 90px;}
+                 
+       .borde__img {margin-right: 90px;
+    border-radius: 20px;}
+       
+       .anillos__925{font-size: 24px;}
+       }
+    
+    @media screen and (min-width:768px) and (max-width:1023px){
+        header{display: flex;
+        align-items: center;
+    justify-content: center;
+    }
+    .navbar ul li a{
+        margin: 0px;
+    }
+       
+        .section__galeria {
+            display: grid;
+            grid-template-columns:1fr 1fr;
+            grid-template-rows:auto;
+            column-gap: 1px;
+            
+            }
+            .carrito{
+                display: flex;
+                flex-direction: column;
+              
+         
+       .borde__img {
+        margin-left: 10px;
+        margin-right: 10px;
+        border-radius: 20px;
+       }
+    }
+    @media screen and (min-width:768px) and (max-width:1600px){
+        header{display: flex;
+        align-items: center;
+    justify-content: center;
+    }
+    .navbar ul li a{
+        margin: 0px;
+    }
+       
+        .section__galeria {
+            display: grid;
+            grid-template-columns:1fr 1fr;
+            grid-template-rows:auto;
+            column-gap: 70px;
+            justify-content: space-around;
+            
+        }
+        .col{margin-left: -50px;}
+    
+            .carrito{
+                display: flex;
+                flex-direction: column;
+                margin-left: 70px;}
+           .section__galeria .col h2{
+            margin-left: 70px;
+           }
+       .borde__img {
+        margin-left: -10px;
+       
+       }
+    }}
