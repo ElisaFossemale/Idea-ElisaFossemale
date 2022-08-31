@@ -87,21 +87,21 @@
             display: grid;
             grid-template-columns:1fr 1fr;
             grid-template-rows:auto;
-            column-gap: 70px;
+    
             justify-content: space-around;
             
         }
-        .col{margin-left: -50px;}
-    
-            .carrito{
+        .section__galeria .col h2{
+            margin-left: 70px;
+           }    
+           
+           .carrito{
                 display: flex;
                 flex-direction: column;
                 margin-left: 70px;}
-           .section__galeria .col h2{
-            margin-left: 70px;
-           }
+          
        .borde__img {
-        margin-left: -10px;
+        margin-right: 50px;
        
        }
     }}
