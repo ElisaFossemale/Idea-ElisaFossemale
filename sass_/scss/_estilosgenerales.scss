@@ -23,14 +23,16 @@
     width: 100%;
     background-image:map-get($estilos, color);
  }
+#navbarNavDropdown{margin-left: 500px;}
 .navbar 
  ul li{
     display: flex;
     text-decoration:none;
-    margin: 50px;}
+}
 
 
 .navbar li a {
+   margin: 3px;
    transition: 0.2s;
     text-decoration: none;
     font-size: 16px;

@@ -11,6 +11,9 @@
     height: 45px;
 }
 
+h2{
+    margin-left: 25px;
+}
 .whats{
     color: green;
     font-size: 45px;
@@ -31,6 +34,7 @@
     margin-top: 100px;
     margin-left: 1px;
 }
+
 
 .mapa{
     width:map-get($estilos, mapaAncho);
