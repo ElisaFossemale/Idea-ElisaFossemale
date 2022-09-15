@@ -152,6 +152,13 @@ main {
   display: flex;
   padding: 10px; }
 
+.img-contacto {
+  width: 200px;
+  height: 300px;
+  margin-left: 100px;
+  margin-top: -30px;
+  margin-bottom: 10px; }
+
 /*STYLE DE REGISTRO*/
 .registro__form {
   margin-left: 500px; }
@@ -240,7 +247,7 @@ h2 {
     flex-direction: column;
     align-items: flex-start; }
   #navbarNavDropdown {
-    margin: 0; }
+    margin-left: 0; }
   .index__section {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -254,7 +261,9 @@ h2 {
     display: flex;
     flex-direction: row; }
   .footer__div {
-    margin-left: 80px; } }
+    margin-left: 80px; }
+  .footer__div h2 {
+    text-align: center; } }
 
 @media only screen and (max-width: 600px) {
   header {
@@ -266,11 +275,11 @@ h2 {
     margin-left: 1%; }
   .navbar-nav ul li a {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-left: 0; }
+    flex-direction: column; }
   #navbarNavDropdown {
-    margin: 0; }
+    margin-left: 0; }
+  .navbar-toggler {
+    margin-right: 20px; }
   #carouselExampleControls {
     display: none; }
   .index__section {
@@ -279,7 +288,7 @@ h2 {
     grid-template-rows: auto;
     margin-left: 80px; }
   .index__h2 {
-    margin-left: 50px;
+    margin-left: 40px;
     font-size: 1rem; }
   .index__img {
     border-radius: 20%;
@@ -290,11 +299,14 @@ h2 {
     flex-direction: column; }
   .footer__div {
     margin-left: 70px; }
-  iframe .mapa {
+  .footer__div h2 {
+    margin-left: 40px; }
+  .index__h3 {
+    margin-right: 60px; }
+  .mapa {
     display: flex;
     flex-direction: column;
-    align-content: center;
-    justify-content: center; } }
+    margin-left: 35px; } }
 
 /*MEDIA Q GALERIA*/
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
@@ -355,32 +367,27 @@ h2 {
     width: 80%; }
   .form__h1 {
     text-align: left; }
-  .inputContacto {
+  #exampleFormControlInput1 {
     display: flex;
     flex-direction: column;
-    margin-left: 1%; }
-  .botonContacto {
-    margin-left: 4%; } }
-
-/*MEDIAQ REGISTRO*/
-.registro__form {
-  margin-left: 20%; }
-
-#exampleInputEmail1 {
-  width: 200px; }
-
-#exampleInputPassword1 {
-  width: 200px; }
-
-.form-label {
-  width: 200px;
-  margin-left: 20px; }
-
-.form-text {
-  width: 200px; }
-
-.form-check-label {
-  width: 150px; }
-
-.btn {
-  width: 150px; }
+    margin-left: 2%; }
+  .btn {
+    margin-left: 4%; }
+  .img-contacto {
+    margin-left: 10px; }
+  /*MEDIAQ REGISTRO*/
+  .registro__form {
+    margin-left: 20%; }
+  #exampleInputEmail1 {
+    width: 200px; }
+  #exampleInputPassword1 {
+    width: 200px; }
+  .form-label {
+    width: 200px;
+    margin-left: 20px; }
+  .form-text {
+    width: 200px; }
+  .form-check-label {
+    width: 150px; }
+  .btn {
+    width: 150px; } }
